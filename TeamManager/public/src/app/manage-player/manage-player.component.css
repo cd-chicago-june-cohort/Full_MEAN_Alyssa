@@ -1,0 +1,9 @@
+*{
+    background-color: white;
+}
+
+li{
+    display: inline;
+    margin: 0 5px;
+    font-size: larger;
+}

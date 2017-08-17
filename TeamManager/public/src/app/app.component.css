@@ -1,0 +1,9 @@
+li{
+    display: inline;
+    margin: 0 5px;
+}
+
+div{
+    background-color: white;
+    border: 1px solid black;  
+}
