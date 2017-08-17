@@ -7,7 +7,7 @@ import { PlayerStatusComponent } from './player-status/player-status.component';
 import { GameStatusComponent } from './game-status/game-status.component';
 
 const routes: Routes = [
-    {path: '', pathMatch: 'full', redirectTo:'/players'}, 
+    {path: '', pathMatch: 'full', redirectTo:'/players/list'}, 
     {path: 'players', component:ManagePlayerComponent, children:[
       {path: '', pathMatch: 'full', redirectTo:'/players/list'},
       {path: 'list', component:PlayerListComponent},
